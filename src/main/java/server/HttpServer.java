@@ -1,13 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package server;
 
-/**
- *
- * @author andre
- */
+import java.net.ServerSocket;
+
 public class HttpServer {
-    
+    public static void main(String[] args) throws Exception {
+        final ServerSocket server = new ServerSocket(8080);
+        System.out.println("Listening for connections on port 8080...");
+        
+        while (true) {
+        }
+    }
 }
